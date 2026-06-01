@@ -16,5 +16,11 @@ int main()
         cout << data.at(5) << endl;
     }
 
+    // kondisi jika terjadi error di dalam try
+    catch (exception& e)
+    {
+        cout << e.what() << endl;
+    }
+
     return 0;
 }
