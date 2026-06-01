@@ -35,5 +35,8 @@ int main()
         outfile << baris << endl;
     }
 
+    // menutup file apabila telah selesai ditulis
+    outfile.close();
+
     return 0;
 }
